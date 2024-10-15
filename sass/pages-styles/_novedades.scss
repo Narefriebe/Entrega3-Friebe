@@ -1,14 +1,14 @@
 /* NOVEDADES */
 .novedades {
-    display: flex; /* Activa flexbox */
-    flex-wrap: wrap; /* Permite que los elementos se envuelvan en múltiples filas */
-    justify-content: space-between; /* Espacio entre los elementos */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     margin: 2%;
 
     article {
         
         flex: 1 1 35%; /* Cada artículo ocupa aproximadamente el 35% del ancho del contenedor */
-        margin: 5px; /* Margen alrededor de cada artículo */
+        margin: 5px; 
         box-shadow: 2px 5px rgba(39, 28, 88, 0.1); 
         padding: 12px;
         border-radius: 3px; 

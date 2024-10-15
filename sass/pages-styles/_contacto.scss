@@ -1,3 +1,5 @@
+$color-borde-bg: #007BFF;
+
 /* FORMULARIO DE CONTACTO Y EL MAPA*/
 .contact-container {
     display: flex;
@@ -36,14 +38,14 @@
 /* Efecto en el input y textarea al enfocar */
     input:focus,
     textarea:focus {
-    border-color: #007BFF;
+    border-color: $color-borde-bg;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     }
     
 /* Estilos del botón de envío */
     input[type="submit"] {
-    background-color: #007BFF;
+    background-color: $color-borde-bg;
     color: white;
     border: none;
     cursor: pointer;
@@ -51,7 +53,7 @@
     
 /* Efecto en el botón de envío al pasar el ratón */
     input[type="submit"]:hover {
-    background-color: #0056b3;
+    background-color: $color-borde-bg;
     } 
     
 }

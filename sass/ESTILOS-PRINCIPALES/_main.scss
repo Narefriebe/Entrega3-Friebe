@@ -23,7 +23,7 @@ main {
         padding: 3%; 
         font-size: 17px;
         border: $color-header-border; 
-        background: $color-header-bg;
+        background-color: $color-header-bg;
     }
     }
 
@@ -51,18 +51,18 @@ h3 {
     margin-top: 1%;
 }
 
-// Estilo para el artículo iva
+/* Estilo para el artículo iva*/
 .iva , .vto  {
     display: flex; 
     align-items: center; 
     background-color: $color-background;
     padding: 10px;
-    margin: 10px; /* Márgenes verticales */
-    border: 2px solid #142269; /* Unifica la apariencia de los bordes */
-    width: 100%; /* Mantiene el ancho como está */
+    margin: 10px; 
+    border: 2px solid #142269; 
+    width: 100%; 
 
     p {
-        text-align: justify; /* Justifica el texto */
+        text-align: justify; 
     }
     ul {
         list-style-type: none;
@@ -72,15 +72,15 @@ h3 {
     }
 }
 
-// Estilo para imágenes
+/*Estilo para imágenes*/
 .iva__img {
-    width: 25%; /* Ajusta el ancho de la imagen a un tamaño más pequeño */
-    margin-right: 10px; /* Espacio entre la imagen y el texto */
+    width: 25%; 
+    margin-right: 10px; 
 }
 
 img {
-    max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    max-width: 100%; 
+    height: auto; 
 }
 
 
